@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  background-color: #FF892F;
+}
+
+/* specific boxes */
+
+#wrapper header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 220px;
+  margin-right: 220px;
+  height: 72px;
+  position:relative;
+  font-size: 24px;
+}
+
+
+#wrapper main {
+  background-color: #FF892F;
+}
+
+/*HEADER*/
+ul {
+  list-style-type: none;
+  position: relative;
+  float: right;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #D6D5D1;
+  margin : 0 0 0 30px;
+  padding: 5px;
+}
+
+.logo {
+  display: inline-block;
+  background-image: url(Images/56tk.gif);
+  border-radius: 75px;
+  background-size: 75px 75px;
+  height: 75px;
+  width: 75px;
+  float: left;
+  margin-top: 10px;
+}
+
+/*alien*/
+.alien1 {
+  background-image: url(Images/wheel-loader.gif);
+  background-position: center;
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  top: 250px;
+}
+.alien2 {
+  background-image: url(Images/alien.png);
+  background-position: center;
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.alien3 {
+  background-image: url(Images/alien.png);
+  background-position: center;
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 0px;
+  top: 500px;
+}
+
+/*main 1*/
+
+.main1 {
+  padding:15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+  height: 400px;
+  text-align: center;
+  color: #D6D5D1;
+}
+
+.ripal {
+  background-image: url(Images/picture.png);
+  background-size: 250px 250px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p.nama {
+  border:solid;
+}
+
+/*main 2*/
+
+.main2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 280px;
+  margin-left: 280px;
+  height: 700px;
+  background-image: url(Images/background.jpg); 
+  background-repeat: no-repeat;
+  background-position:center;
+  position: relative;
+}
+
+.main4 {
+  height: 500px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.mars {
+  background-image: url(Images/mars.png);
+  height: 500px;
+  background-size:1350px 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*footer*/
+.footer {
+  height: 100px;
+  background-color:#e07828; 
+  position: relative;
+}
+
+.container {
+  height: 80px;
+  margin-left: 479px;
+  margin-right: 480px;
+  position: relative;
+}
+
+.bawah {
+  padding-right: 80px;
+}
